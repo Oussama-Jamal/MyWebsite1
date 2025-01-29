@@ -1,56 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oussama Usano’s Introductions Website</title>
+    <title>About Me</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 20px;
+            background-color: #f4f4f4;
+            line-height: 1.6;
         }
-        img {
-            display: block;
-            margin: 0 auto;
-            width: 800px;
-            height: 800px;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
         }
-        ul {
-            list-style-type: square;
-            text-align: left;
-            display: inline-block;
+        .main-info {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        .main-info h1 {
+            margin: 0;
+        }
+        .hobbies, .lewis, .course, .job {
+            background: #e7e7e7;
+            padding: 15px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <h1>Oussama Usano’s Introductions Website</h1>
-    <p><a href="mailto:your-email@lewisu.edu">your-email@lewisu.edu</a></p>
-    <p>Discord: your-discord-id</p>
-    
-    <a href="me-300-by-300.jpeg" target="_blank">
-        <img src="me-800-by-800.jpeg" alt="Oussama Usano">
-    </a>
-    
-    <h2>Introduction</h2>
-    <p>Hi, I'm Oussama, a computer science student passionate about technology, fintech, and entrepreneurship. I enjoy learning new things and working on innovative projects.</p>
-    
-    <h2>What I Hope to Learn in this Course</h2>
-    <ul>
-        <li>HTML & CSS best practices</li>
-        <li>Web development fundamentals</li>
-        <li>Hosting a website on GitHub Pages</li>
-        <li>Optimizing user experience</li>
-    </ul>
-    
-    <h2>My Favorite Hobby / Activity</h2>
-    <ul>
-        <li>Coding</li>
-        <li>Football</li>
-    </ul>
-    <p><a href="https://www.fifa.com/" target="_blank">Learn more about football</a></p>
-    
-    <h2>Fun Fact</h2>
-    <p>I once won first place in a sustainability competition for an innovative startup idea!</p>
+    <div class="container">
+        <header class="main-info">
+            <h1>[Your First and Last Name]</h1>
+            <h1>Preferred Name: [Your Preferred Name]</h1>
+        </header>
+
+        <section class="lewis">
+			<h2>Year at Lewis: [Your Years at Lewis]</h2>
+			<h2>Lewis major/minor/concentrations: [Your major/minor/concentrations]</h2>
+			<h2>Reasons for pursuing this degree: [Your reasons for pursuing the degree]</h2>
+        </section>
+
+		<section class="course">
+            <h2>Reasons for Taking This Course</h2>
+            <p>[Your reasons for taking this course]</p>
+        </section>
+
+		<section class="job">
+            <p>Current/Recent Job</p>
+			<p>[Your job responsibilities]</p>
+        </section>		
+
+        <section class="hobbies">
+            <h2>Hobbies and Special Interests</h2>
+            <p>[Your hobbies or special interests]</p>
+        </section>
+
+        <section class="fun-fact">
+            <h2>Fun Fact</h2>
+            <p>[A fun fact about yourself]</p>
+        </section>
+    </div>
 </body>
 </html>
